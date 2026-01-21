@@ -1,7 +1,6 @@
 # Uncomment the following imports before adding the Model code
 
 from django.db import models
-from django.utils.timezone import now
 from django.core.validators import MaxValueValidator, MinValueValidator
 
 
@@ -50,4 +49,9 @@ class CarModel(models.Model):
     # Other fields as needed
 
     def __str__(self):
-        return f"NAME:{self.name}, MAKE:{self.car_make}, TYPE:{self.type}, YEAR:{self.year}"
+        return (
+            f"NAME:{self.name}, "
+            f"MAKE:{self.car_make}, "
+            f"TYPE:{self.type}, "
+            f"YEAR:{self.year}"
+        )
