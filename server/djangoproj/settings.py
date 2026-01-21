@@ -30,10 +30,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'localhost',
-    'https://paulcouncilj-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai' # noqa: E501
+    'https://paulcouncilj-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai'  # noqa: E501
 ]
 CSRF_TRUSTED_ORIGINS = [
-    'https://paulcouncilj-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai' # noqa: E501
+    'https://paulcouncilj-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai'  # noqa: E501
 ]
 
 REST_FRAMEWORK = {
@@ -99,7 +99,7 @@ DATABASES = {
 AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME':
-        'django.contrib.auth.password_validation.UserAttributeSimilarityValidator', # noqa: E501
+        'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',  # noqa: E501
     },
     {
         'NAME':
